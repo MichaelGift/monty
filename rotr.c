@@ -5,7 +5,8 @@
  *@counter: line_number
  *Return: no return
  */
-void rotate_stack_bottom(stack_t **head, __attribute__((unused)) unsigned int counter)
+void rotate_stack_bottom(stack_t **head,
+		__attribute__((unused)) unsigned int counter)
 {
 	stack_t *copy;
 

@@ -16,7 +16,8 @@ int execute_opcode(char *content,
 		{"nop", do_nothing}, {"sub", substract}, {"div", divide_top_two},
 		{"mul", multiply_top_two},
 		{"mod", modulo}, {"pchar", print_char},
-		{"pstr", print_str}, {"rotl", rotate_stack_top}, {"rotr", rotate_stack_bottom},
+		{"pstr", print_str}, {"rotl", rotate_stack_top},
+		{"rotr", rotate_stack_bottom},
 		{"queue", print_q_top}, {"stack", print_s_top}, {NULL, NULL}};
 
 	unsigned int i = 0;
