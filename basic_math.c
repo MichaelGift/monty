@@ -1,3 +1,4 @@
+#include "monty.h"
 /**
  * add_top_two - adds the top two elements of the stack.
  * @head: Pointer to stacks head.
