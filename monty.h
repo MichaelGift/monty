@@ -75,8 +75,10 @@ void print_str(stack_t **head, unsigned int counter);
 void push_node(stack_t **head, unsigned int counter);
 void print_q_top(stack_t **head, unsigned int counter);
 void add_queue(stack_t **head, int n);
-void rotate_stack_top(stack_t **head,  __attribute__((unused)) unsigned int counter);
-void rotate_stack_bottom(stack_t **head, __attribute__((unused)) unsigned int counter);
+void rotate_stack_top(stack_t **head,
+		__attribute__((unused)) unsigned int counter);
+void rotate_stack_bottom(stack_t **head,
+		__attribute__((unused)) unsigned int counter);
 void print_s_top(stack_t **head, unsigned int counter);
 void substract(stack_t **head, unsigned int counter);
 void swap_top_two(stack_t **head, unsigned int counter);
