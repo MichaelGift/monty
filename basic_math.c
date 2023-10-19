@@ -175,3 +175,4 @@ void modulo(stack_t **head, unsigned int counter)
 	*head = current->next;
 	free(current);
 }
+

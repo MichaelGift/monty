@@ -80,3 +80,4 @@ void rotate_stack_top(stack_t **head,
 	(*head)->prev = tmp;
 	(*head) = aux;
 }
+

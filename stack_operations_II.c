@@ -1,4 +1,5 @@
 #include "monty.h"
+
 /**
  * push_node - add node to the stack
  * @head: stack head
@@ -8,7 +9,6 @@
 void push_node(stack_t **head, unsigned int counter)
 {
 	int n, j = 0, flag = 0;
-
 	if (bus.arg)
 	{
 		if (bus.arg[0] == '-')
