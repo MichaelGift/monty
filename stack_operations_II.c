@@ -86,6 +86,7 @@ void add_queue(stack_t **head, int n)
 void push_node(stack_t **head, unsigned int counter)
 {
 	int n, j = 0, flag = 0;
+
 	if (bus.arg)
 	{
 		if (bus.arg[0] == '-')
@@ -112,3 +113,4 @@ void push_node(stack_t **head, unsigned int counter)
 	else
 		add_queue(head, n);
 }
+
