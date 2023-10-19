@@ -1,12 +1,12 @@
 #include "monty.current"
 /**
- * compute_modulus - Computes the remainder of the division of the second
+ * modulo - Computes the remainder of the division of the second
  * top element of the stack by the top element of the stack.
  * @head: Pointer to the stack's head
  * @counter: Line number
  * Return: No return value
  */
-void compute_modulus(stack_t **head, unsigned int counter)
+void modulo(stack_t **head, unsigned int counter)
 {
 	stack_t *current;
 	int stack_len = 0, result;

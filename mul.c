@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * multiply_top_two_elements - Multiplies the top two elements of the stack.
+ * multiply_top_two - Multiplies the top two elements of the stack.
  * @head: Pointer to stack head
  * @counter: Line number
  * Return: No return value
  */
-void multiply_top_two_elements(stack_t **head, unsigned int counter)
+void multiply_top_two(stack_t **head, unsigned int counter)
 {
 	stack_t *current;
 	int stack_len = 0, result;

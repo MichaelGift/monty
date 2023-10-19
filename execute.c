@@ -11,13 +11,13 @@ int execute_opcode(char *content,
 		stack_t **stack, unsigned int counter, FILE *file)
 {
 	instruction_t opcodes[] = {
-		{"push", f_push}, {"pall", print_stack}, {"pint", f_pint},
-		{"pop", f_pop}, {"swap", f_swap}, {"add", add_top_two_elements},
-		{"nop", do_nothing}, {"sub", f_sub}, {"div", divide_top_two_elements},
-		{"mul", multiply_top_two_elements},
-		{"mod", compute_modulus}, {"pchar", f_pchar},
-		{"pstr", f_pstr}, {"rotl", f_rotl}, {"rotr", f_rotr},
-		{"queue", f_queue}, {"stack", f_stack}, {NULL, NULL}};
+		{"push", add_node}, {"pall", print_stack}, {"pint", print_int},
+		{"pop", print_top}, {"swap", swap_top_two}, {"add", add_top_two},
+		{"nop", do_nothing}, {"sub", substract}, {"div", divide_top_two},
+		{"mul", multiply_top_two},
+		{"mod", modulo}, {"pchar", print_char},
+		{"pstr", print_str}, {"rotl", rotate_stack_top}, {"rotr", rotate_stack_bottom},
+		{"queue", print_q_top}, {"stack", print_s_top}, {NULL, NULL}};
 
 	unsigned int i = 0;
 	char *opcode;

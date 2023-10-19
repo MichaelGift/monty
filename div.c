@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * divide_top_two_elements - Divides the top two elements of the stack.
+ * divide_top_two - Divides the top two elements of the stack.
  * @head: pointer to the the stack's head
  * @counter: Line number
  * Return: no return
  */
-void divide_top_two_elements(stack_t **head, unsigned int counter)
+void divide_top_two(stack_t **head, unsigned int counter)
 {
 	stack_t *current;
 	int stack_len = 0, result;
