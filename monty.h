@@ -59,6 +59,7 @@ ssize_t getstdin(char **lineptr, int file);
 char  *clean_line(char *content);
 
 void add_top_two(stack_t **head, unsigned int counter);
+void add_node(stack_t **head, int n);
 void divide_top_two(stack_t **head, unsigned int counter);
 int execute_opcode(char *content,
 		stack_t **stack, unsigned int counter, FILE *file);
@@ -71,7 +72,7 @@ void print_char(stack_t **head, unsigned int counter);
 void print_int(stack_t **head, unsigned int counter);
 void print_top(stack_t **head, unsigned int counter);
 void print_str(stack_t **head, unsigned int counter);
-void add_node(stack_t **head, unsigned int counter);
+void push_node(stack_t **head, unsigned int counter);
 void print_q_top(stack_t **head, unsigned int counter);
 void add_queue(stack_t **head, int n);
 void rotate_stack_top(stack_t **head,  __attribute__((unused)) unsigned int counter);
